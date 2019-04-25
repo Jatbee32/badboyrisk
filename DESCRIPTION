@@ -1,13 +1,17 @@
 Package: badboyrisk
 Type: Package
-Title: Association of Compliance Risk from Completed FINRA's Form U4 
-Version: 0.1
-Authors: "Emily Buckley <emilybuckley@mail.usf.edu> [aut, cre]"
+Title: Preventative Compliance Risk within a Company Based on FINRA's Form U4
+Version: 0.1.0
+Author: "EmilyBuckley <emilybuckley@mail.usf.edu) [aut, cre]"
+Maintainer: <emilybuckley@mail.usf.edu>
 Description: A dataset from the Disclosure Questions section of FINRA's Form U4 will be applied into the package 
 			for risk analysis. The package will analyze the results of these questions C, D, E, G, I J, and M, 
 			associating the answers to numerical values and outputting and outputting a risk factor based on the 
 			quantitative results. Data visualization tools from programs such as ggplot2 can be utilized to assess the 
       correlation of high risk brokers with high score values for each question. 
-Depends: R(>= 3.1.2) 
+Depends: R(>= 3.5.2), roxygen2, ggplot2, readr, 
 License: GNU
-LazyData: true 
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+
